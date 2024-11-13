@@ -1,0 +1,29 @@
+structure:P(status);P(MDVP_Fo_Hz|status);P(MDVP_Fhi_Hz|status);P(MDVP_Flo_Hz|status);P(MDVP_Jitter_%|status);P(MDVP_Jitter_Abs|status);P(MDVP_RAP|status);P(MDVP_PPQ|status);P(Jitter_DDP|status);P(MDVP_Shimmer|status);P(MDVP_Shimmer_dB|status);P(Shimmer_APQ3|status);P(Shimmer_APQ5|status);P(MDVP_APQ|status);P(Shimmer_DDA|status);P(NHR|status);P(HNR|status);P(status|status);P(RPDE|status);P(DFA|status);P(spread1|status);P(spread2|status);P(D2|status);P(PPE|status)
+
+COMPUTING performance on test data...
+Accuracy=0.7627118644067796
+Balanced Accuracy=0.796969696969697
+F1 Score=0.7771621034332898
+Area Under Curve=0.9181818181818182
+Brier Score=0.19862908287445158
+KL Divergence=45.51774802209084
+Training Time=this number should come from the CPT_Generator!
+Inference Time=0.07744789123535156 secs.
+
+structure:P(MDVP_Flo_Hz);P(MDVP_Fo_Hz|MDVP_Flo_Hz);P(DFA|MDVP_Fo_Hz);P(MDVP_Fhi_Hz|MDVP_Fo_Hz);P(status|MDVP_Fo_Hz);P(spread1|status);P(PPE|spread1);P(spread2|PPE);P(Shimmer_APQ5|PPE);P(HNR|Shimmer_APQ5);P(D2|HNR);P(RPDE|HNR);P(MDVP_Shimmer|Shimmer_APQ5);P(MDVP_APQ|Shimmer_APQ5);P(Shimmer_APQ3|MDVP_Shimmer);P(Shimmer_DDA|Shimmer_APQ3);P(MDVP_Shimmer_dB|MDVP_Shimmer);P(MDVP_PPQ|MDVP_Shimmer_dB);P(MDVP_Jitter_%|MDVP_PPQ);P(MDVP_Jitter_Abs|MDVP_Jitter_%);P(Jitter_DDP|MDVP_Jitter_%);P(MDVP_RAP|Jitter_DDP);P(NHR|MDVP_Jitter_%)
+
+COMPUTING performance on test data...
+Accuracy=0.9152542372881356
+Balanced Accuracy=0.8553030303030302
+F1 Score=0.9119430475362679
+Area Under Curve=0.9037878787878788
+Brier Score=0.09059282519709129
+KL Divergence=7.95674415312355
+Training Time=this number should come from the CPT_Generator!
+Inference Time=0.07179832458496094 secs.
+
+
+
+
+
+

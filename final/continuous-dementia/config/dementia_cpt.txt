@@ -1,0 +1,7 @@
+name:dementia
+
+random_variables:X0(Visit);X1(M/F);X2(Age);X3(EDUC);X4(SES);X5(MMSE);X6(CDR);X7(eTIV);X8(nWBV);X9(ASF);X10(MRDelay);X11(Group)
+
+structure:P(EDUC|SES);P(MMSE|CDR);P(MRDelay|Visit);P(M/F);P(ASF|eTIV);P(CDR|M/F);P(Visit);P(Group|Visit,CDR);P(SES|M/F);P(Age);P(eTIV);P(nWBV|eTIV,Age)
+
+regression_models:./config/dementia_cpt.pkl

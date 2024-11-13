@@ -1,0 +1,7 @@
+name:ToyData
+
+random_variables:target(target);x1(x1);x2(x2)
+
+structure:P(target);P(x1|target);P(x2|target)
+
+regression_models:.\config\config-toydata-pdf.pkl

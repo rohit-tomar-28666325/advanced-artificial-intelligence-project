@@ -1,0 +1,7 @@
+name:parkinsons
+
+random_variables:X0(NHR);X1(HNR);X2(RPDE);X3(DFA);X4(spread1);X5(spread2);X6(D2);X7(PPE);X8(MDVP_Fo_Hz);X9(MDVP_Fhi_Hz);X10(MDVP_Flo_Hz);X11(MDVP_Jitter_%);X12(MDVP_Jitter_Abs);X13(MDVP_RAP);X14(MDVP_PPQ);X15(Jitter_DDP);X16(MDVP_Shimmer);X17(MDVP_Shimmer_dB);X18(Shimmer_APQ3);X19(Shimmer_APQ5);X20(MDVP_APQ);X21(Shimmer_DDA);X22(status)
+
+structure:P(MDVP_Fhi_Hz|spread1);P(MDVP_Shimmer);P(Shimmer_APQ5|MDVP_Flo_Hz);P(DFA|MDVP_Flo_Hz);P(Shimmer_APQ3|Shimmer_DDA,status);P(MDVP_PPQ|MDVP_Flo_Hz);P(PPE|MDVP_Fhi_Hz);P(spread2|spread1);P(spread1|MDVP_Jitter_Abs,status,MDVP_Shimmer);P(status);P(MDVP_Jitter_%|MDVP_Fo_Hz);P(Shimmer_DDA|HNR);P(MDVP_Jitter_Abs|status);P(MDVP_Fo_Hz|MDVP_Fhi_Hz);P(NHR|D2);P(D2|MDVP_Flo_Hz);P(MDVP_Shimmer_dB|spread1);P(HNR|DFA);P(RPDE|MDVP_Flo_Hz);P(Jitter_DDP|PPE);P(MDVP_APQ|D2);P(MDVP_Flo_Hz|PPE);P(MDVP_RAP|Jitter_DDP)
+
+regression_models:./config/parkinsons_cpt.pkl

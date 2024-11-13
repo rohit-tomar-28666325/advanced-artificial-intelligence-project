@@ -1,0 +1,7 @@
+name:Cardiovascular
+
+random_variables:Targe(target);Age(age);Gender(gender);Height(height);Weight(weight);ApHi(ap_hi);ApLo(ap_lo);Cholesterol(cholesterol);Gluc(gluc);Smoke(smoke);Alco(alco);Active(active)
+
+structure:P(target);P(age|target);P(gender|target);P(height|target);P(weight|target);P(ap_hi|target);P(ap_lo|target);P(cholesterol|target);P(gluc|target);P(smoke|target);P(alco|target);P(active|target)
+
+regression_models:.\config\config-cardiovascular-pdf.pkl

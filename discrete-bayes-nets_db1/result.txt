@@ -1,0 +1,37 @@
+structure:P(Group);P(Visit|Group);P(MR_Delay|Group);P(SES|Group);P(EDUC|Group);P(MR_Delay|Group);P(Visit|MR_Delay);P(CDR|Group);P(MMSE|CDR);P(nWBV|MMSE);P(Age|nWBV);P(ASF|nWBV);P(M/F|Group,eTIV);P(eTIV|ASF);P(SES|M/F,eTIV);P(EDUC|SES)
+
+COMPUTING performance on test data...
+Accuracy=0.9065420560747663
+Balanced Accuracy=0.7460815047021944
+F1 Score=0.8905044332614425
+Area Under Curve=0.5884585272217583
+Brier Score=0.012503245299954405
+KL Divergence=98.56595200162305
+Training Time=this number should come from the CPT_Generator!
+Inference Time=0.10009336471557617 secs.
+
+With balanced dataset
+
+COMPUTING performance on test data...
+Accuracy=0.8691588785046729
+Balanced Accuracy=0.8182918110322829
+F1 Score=0.8801189464740866
+Area Under Curve=0.6413475272787393
+Brier Score=0.03684964879506437
+KL Divergence=126.51030601917216
+Training Time=this number should come from the CPT_Generator!
+Inference Time=0.13498497009277344 secs
+
+
+change in bin size
+
+COMPUTING performance on test data...
+Accuracy=0.8785046728971962
+Balanced Accuracy=0.8210141340812847
+F1 Score=0.8855799927473073
+Area Under Curve=0.6372541365168406
+Brier Score=0.03826417695213665
+KL Divergence=130.7249194510584
+Training Time=this number should come from the CPT_Generator!
+Inference Time=0.09727311134338379 secs.
+

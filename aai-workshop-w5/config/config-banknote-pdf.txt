@@ -1,0 +1,7 @@
+name:BankNoteIdentification
+
+random_variables:target(target);x1(x1);x2(x2);x3(x3);x(x4)
+
+structure:P(target);P(x1|target);P(x2|target);P(x3|target);P(x4|target)
+
+regression_models:.\config\config-banknote-pdf.pkl

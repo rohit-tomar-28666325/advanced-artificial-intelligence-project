@@ -1,0 +1,42 @@
+Discrete Bayesian Network
+
+For AIC
+
+    accuracy          0.871795
+    bal_acc           0.797324
+    f1_score          0.865279
+    auc               0.857526
+    brier             0.085887
+    kl_div            7.219047
+    inference_time    0.016394
+    training_time     0.019110
+    For target= 0 :  0.14775793581073932
+    For target= 1 :  0.9145744334867288
+
+
+For Bic
+
+    accuracy          0.841026
+    bal_acc           0.784519
+    f1_score          0.838714
+    auc               0.839455
+    brier             0.079079
+    kl_div            6.667105
+    inference_time    0.015409
+    training_time     0.017693
+    For target= 0 :  0.08018601198890415
+    For target= 1 :  0.9658806832846503
+
+
+For Bdeu
+
+    accuracy          0.841026
+    bal_acc           0.761177
+    f1_score          0.835712
+    auc               0.889347
+    brier             0.081657
+    kl_div            4.808819
+    inference_time    0.016619
+    training_time     0.098826
+    For target= 0 :  0.067468971092745
+    For target= 1 :  0.9729255099452827
